@@ -1,3 +1,9 @@
+"""
+Description: This file defines the ToDoList application, which allows users to add, edit, and save tasks with status labels. 
+The application integrates file I/O for loading and saving tasks in a CSV format, enabling task management persistence.
+Author: Ramandeep Kaur
+"""
+
 from PySide6.QtWidgets import QMainWindow, QLineEdit, QPushButton, QTableWidget, QLabel, QVBoxLayout, QWidget, QTableWidgetItem, QComboBox
 from PySide6.QtCore import Slot
 from to_do_list.task_editor import TaskEditor

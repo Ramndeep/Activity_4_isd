@@ -1,3 +1,9 @@
+"""
+Description: This file defines the ContactList application, allowing users to add, view, and remove contacts. 
+The application features a simple UI for managing contacts, displaying each contact's name and phone number in a table.
+Author: Ramandeep Kaur
+"""
+
 from PySide6.QtCore import Slot
 from PySide6.QtWidgets import QMainWindow, QLineEdit, QPushButton, QTableWidget, QLabel, QVBoxLayout, QWidget, QTableWidgetItem, QMessageBox
 

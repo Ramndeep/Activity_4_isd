@@ -1,3 +1,9 @@
+"""
+Description: This file defines the TaskEditor dialog, which allows users to update the status of a selected task. 
+The TaskEditor dialog is launched from the ToDoList application, enabling users to select a new status for a task.
+Author: Ramandeep Kaur
+"""
+
 from PySide6.QtWidgets import QPushButton, QVBoxLayout, QComboBox, QDialog
 from PySide6.QtCore import Signal, Slot
 
